@@ -5,12 +5,6 @@ import org.apache.log4j.Logger;
 
 import java.math.BigDecimal;
 
-/**
- * A wrapper for Pleasure, Arousal, and Dominance values.
- *
- * @author javiergs
- * @version 2.0, 2024-07-28
- */
 public class PAD extends Signal {
 	
 	private static final Logger logger = LogManager.getLogger(PAD.class);
