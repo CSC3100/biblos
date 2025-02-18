@@ -9,12 +9,6 @@ import org.json.JSONArray;
 import java.math.BigDecimal;
 import java.util.Arrays;
 
-/**
- * A wrapper for the device information as received from the Emotiv Launcher.
- *
- * @author javiergs
- * @version 2.0, 2024-07-28
- */
 public class Device extends Signal {
 	
 	private static final Logger logger = LogManager.getLogger(Device.class);
