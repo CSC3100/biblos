@@ -7,12 +7,6 @@ import org.json.JSONObject;
 
 import java.math.BigDecimal;
 
-/**
- * A wrapper for the motion data as received from the Emotiv WebSocket server.
- *
- * @author javiergs
- * @version 2.0, 2024-07-28
- */
 public class Motion extends Signal {
 	
 	private static final Logger logger = LogManager.getLogger(Motion.class);
