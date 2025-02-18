@@ -10,12 +10,6 @@ import java.math.BigDecimal;
 import java.util.LinkedList;
 import java.util.Arrays;
 
-/**
- * A wrapper for the EEG signal as received from the Emotiv WebSocket server.
- *
- * @author javiergs
- * @version 2.0, 2024-07-28
- */
 public class EEG extends Signal {
 	
 	private static final Logger logger = LogManager.getLogger(EEG.class);
