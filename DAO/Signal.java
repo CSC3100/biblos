@@ -4,12 +4,6 @@ import adas.util.TimeHandler;
 
 import java.math.BigDecimal;
 
-/**
- * A wrapper for received data
- *
- * @author javiergs
- * @version 2.0, 2024-07-28
- */
 public abstract class Signal {
 	
 	protected String[] labels;
