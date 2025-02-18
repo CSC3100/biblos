@@ -6,12 +6,6 @@ import org.apache.log4j.Logger;
 
 import java.math.BigDecimal;
 
-/**
- * A wrapper for facial expressions data
- *
- * @author javiergs
- * @version 2.0, 2024-07-28
- */
 public class Face extends Signal {
 	
 	private static final Logger logger = LogManager.getLogger(Face.class);
